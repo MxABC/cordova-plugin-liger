@@ -3,6 +3,8 @@ liger基于cordova的一个框架，优点在于可以native界面跳转、返�
 将liger代码组织成 cordova插件形式，方便cordova直接集成liger，主要使用liger界面跳转、传递参数功能，其他功能使用cordova插件。
 
 
+html5开发相关资料
+
 
 混合(Hybrid)移动应用开发
 
