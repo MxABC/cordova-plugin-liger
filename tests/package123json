@@ -1,0 +1,22 @@
+{
+  "name": "Liger",
+  "version": "1.0.2-dev",
+  "description": "Cordova Console Plugin",
+  "cordova": {
+    "id": "com.reachLocal.liger",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.oschina.net/lbxia/cordova-plugin-liger.git"
+  },
+  "keywords": [
+    "cordova-Liger",
+    "Liger",  
+  ],
+  "author": "reachLocal",
+  "license": "Apache 2.0"
+}

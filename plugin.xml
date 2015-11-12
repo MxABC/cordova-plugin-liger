@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  id="com.reachLocal.liger"
+  version="1.0.1">
+
+    <name>Liger</name>
+
+    <description>
+        Cordova / Phonegap plugin for navigation controller
+	</description>
+
+
+
+    <js-module src="www/page.js" name="PAGE">
+        <clobbers target="PAGE" />
+    </js-module>
+
+       <js-module src="www/liger.js" name="LIGER">
+        <clobbers target="LIGER" />
+    </js-module>
+
+    <!-- ios -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="Liger">
+                <param name="ios-package" value="LGRLiger"/>
+            </feature>
+        </config-file>
+
+
+        <header-file src="src/ios/LGRLiger.h" />
+        <source-file src="src/ios/LGRLiger.m" />
+
+        <header-file src="src/ios/LGRApp.h" />
+        <source-file src="src/ios/LGRApp.m" />
+
+        <header-file src="src/ios/LGRCameraImported.h" />
+        <source-file src="src/ios/LGRCameraImported.m" />
+
+        <header-file src="src/ios/LGRCordovaViewController.h" />
+        <source-file src="src/ios/LGRCordovaViewController.m" />
+
+
+        <header-file src="src/ios/LGRHTMLViewController.h" />
+        <source-file src="src/ios/LGRHTMLViewController.m" />
+
+
+        <header-file src="src/ios/LGRImageImported.h" />
+        <source-file src="src/ios/LGRImageImported.m" />
+
+        <header-file src="src/ios/LGRImportedViewController.h" />
+
+
+        <header-file src="src/ios/LGRNavigatorViewController.h" />
+        <source-file src="src/ios/LGRNavigatorViewController.m" />
+
+        <header-file src="src/ios/LGRNativeViewController.h" />
+        <source-file src="src/ios/LGRNativeViewController.m" />
+
+        <header-file src="src/ios/LGRPageFactory.h" />
+        <source-file src="src/ios/LGRPageFactory.m" />
+
+        <header-file src="src/ios/LGRViewController.h" />
+        <source-file src="src/ios/LGRViewController.m" />
+
+    </platform>
+
+</plugin>
