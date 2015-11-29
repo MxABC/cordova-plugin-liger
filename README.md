@@ -43,8 +43,6 @@ AppCan是国内Hybrid App混合模式开发的倡导者，AppCan应用引擎支�
 与Phonegap支持单一webview使用div为单位开发移动应用不同。AppCan支持多窗口机制，让开发者可以像最传统的网页开发一样，通过页面链接的方式灵活的开发移动应用。基于这种机制，开发者可以开发出大型的移动应用，而不是只能开发简易类型的移动应用。 
 
 
-
-
 5、ionicframework
 这是一个前台js库，用于移动设备。据说封装的比较好（http://www.geek521.com/?p=5530），不过实际情况有待确定，可以作为一个移动端前台库的备选
 http://ionicframework.com/
